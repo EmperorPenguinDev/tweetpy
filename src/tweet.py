@@ -16,6 +16,8 @@ auth.set_access_token(keys['access_token'], keys['access_token_secret'])
 api = tweepy.API(auth)
 
 def tweet():
+	#ftweet = open("tweet.txt", "r")
+	#fftweet = ftweet.read()
 	message=input("tweet: ")
 	imagepath=input("image: ")
 	# api.update_status(message)
